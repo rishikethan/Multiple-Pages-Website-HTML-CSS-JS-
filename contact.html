@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Teks Academy</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"
+          ><img
+            src="./assets/logo.png"
+            alt=""
+        /></a>
+        <div class="nav-links" id="nav_links">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+    <!-- contact us -->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.386878949292!2d78.4975920104625!3d17.441187501184654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9b897e76455f%3A0xf7c268ee0c8a2f80!2sTeks%20Academy!5e0!3m2!1sen!2sin!4v1729255848245!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa-solid fa-house"></i
+            ><span>
+              <h5>xyz road,abc building</h5>
+              <p>secunderabad,telangana</p></span
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-phone"></i
+            ><span>
+              <h5>+91 9182624502</h5>
+              <p>monday to saturday, 10AM to 6PM</p></span
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i
+            ><span>
+              <h5>rishi868860@gmail.com</h5>
+              <p>email us if any queries</p></span
+            >
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="formhandler.php" method="post">
+            <input type="text" name="name"  placeholder="Enter Your Name" required/>
+            <input type="email" name="email" placeholder="Enter Your email" required/>
+            <input type="text" name="course" placeholder="Enter Your Course" required/>
+            <textarea rows="8" name="message" placeholder="message" required></textarea>
+            <button type="submit" class="main-btn red-btn">Sent Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia quis
+        commodi hic? Et, vel illo? Quas nihil molestias voluptatum doloremque?
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made By S.Rishi Kethan</p>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
